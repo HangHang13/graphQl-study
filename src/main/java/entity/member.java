@@ -14,7 +14,7 @@ import javax.persistence.*;
 @Table(name = "member")
 public class member {
 
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "member_sn", nullable = false, precision = 15, scale = 0)

@@ -2,3 +2,8 @@
         query: Query,
         mutation: Mutation,
     }
+
+  type Member {
+        memberSn: Int!,
+        memberId: String!
+    }
